@@ -7,9 +7,9 @@ spec:
   generators:
     - pullRequest:
         github:
-          owner: lyzhang1999
+          owner: CheongSong0320
           # The Github repository
-          repo: argocd-example-frontend
+          repo: argocd-poc-frontend
           tokenRef:
             secretName: github-token
             key: token
@@ -19,7 +19,7 @@ spec:
       name: "myapp-{{branch}}-{{number}}"
     spec:
       source:
-        repoURL: "https://github.com/lyzhang1999/argocd-example.git"
+        repoURL: "https://github.com/CheongSong0320/argocd-poc.git"
         targetRevision: HEAD
         path: helm
         helm:

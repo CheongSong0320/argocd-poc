@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: "https://github.com/lyzhang1999/argocd-example.git"
+    repoURL: "https://github.com/CheongSong0320/argocd-poc.git"
     targetRevision: HEAD
     path: helm
     helm:
