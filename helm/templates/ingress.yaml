@@ -12,7 +12,7 @@ metadata:
     alb.ingress.kubernetes.io/actions.ssl-redirect: '{"Type": "redirect", "RedirectConfig": { "Protocol": "HTTPS", "Port": "443", "StatusCode": "HTTP_301"}}'
 spec:
   rules:
-    - host: {{ .Release.Namespace }}.env.my
+    - host: {{ .Release.Namespace }}.mopl-dev.com
       http:
         paths:
           - path: /
