@@ -1,0 +1,3 @@
+frontend:
+  image: luoqs1989/frontend
+  tag: latest-env
