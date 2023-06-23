@@ -1,6 +1,6 @@
 apiVersion: v1
 data:
-  token: Z2hwX2ZzYVF2UFRwSmVaZDVGRjZTcDQwbHhwY1c3UktDdDMzYVNpUw==
+  token: Z2hwX0s3NmVQNlIzY2s1ZldwYnBhS0p6dkhadm5Ram8yNTRLcEphdQo=
 kind: Secret
 metadata:
   name: github-token
